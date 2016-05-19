@@ -1,0 +1,12 @@
+select 'grant select on CARDBOM.' || table_name || ' to RLERMA;'
+from dba_tables
+where owner='CARDBOM' ;
+
+select 'grant select on CARDBOM.' || table_name || ' to LUCIANA;'
+from dba_tables
+where owner='CARDBOM' ;
+
+
+select 'grant select on CARDBOM.' || table_name || ' to LEONARDO;'
+from dba_tables
+where owner='CARDBOM' ;
